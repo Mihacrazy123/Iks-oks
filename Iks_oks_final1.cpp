@@ -158,7 +158,7 @@ void potezi2 ()
 						//ispitivanje kolona
 							for(i=0;i<3;i++)
 							{
-								if((a[0][i]==a[1][i])&&(a[i][0]==a[2][i]))
+								if((a[0][i]==a[1][i])&&(a[1][i]==a[2][i]))
 								return a[0][i];
 							}
 							//provera prve dijagonale
@@ -205,7 +205,8 @@ int main()
 int l;
 
 printf("\n");
-printf("dobrodosli u iks oks\n");
+printf("dobrodosli u  Posticev iks oks\n");
+printf("Zalbe prijavite nakon zavrsetka programa\n");
 printf("molimo vas izaberite mod igre:\n");
 printf("1-igrac vs ai\n");
 printf("2-igrac vs igrac\n");
